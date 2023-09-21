@@ -1,0 +1,25 @@
+diff a/config.yaml b/config.yaml	(rejected hunks)
+@@ -4,15 +4,15 @@
+ worlds:
+   #Properties for Scania 0
+   - flag: 0
+-    server_message: Welcome to Scania!
++    server_message: 欢迎来的平安村(内测中)
+     event_message: Scania!
+-    why_am_i_recommended: Welcome to Scania!
+-    channels: 4
+-    exp_rate: 2
+-    meso_rate: 2
+-    drop_rate: 2
+-    boss_drop_rate: 10                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
+-    quest_rate: 5                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
++    why_am_i_recommended: 欢迎来的平安村(内测中)
++    channels: 5
++    exp_rate: 20
++    meso_rate: 100
++    drop_rate: 500
++    boss_drop_rate: 100                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
++    quest_rate: 20                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
+     fishing_rate: 10                        #Multiplier for success likelihood on meso thrown during fishing.
+     travel_rate: 10                         #Means of transportation rides/departs using 1/N of the default time.
+ 

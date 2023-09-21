@@ -1,0 +1,478 @@
+#World Name: (0 "Scania", 1 "Bera", 2 "Broa", 3 "Windia", 4 "Khaini", 5 "Bellocan", 6 "Mardia", 7 "Kradia", 8 "Yellonde", 9 "Demethos", 10 "Galicia", 11 "El Nido", 12 "Zenith", 13 "Arcenia", 14 "Kastia", 15 "Judis", 16 "Plana", 17 "Kalluna", 18 "Stius", 19 "Croa", 20 "Medere")
+#Flag types: (0 = nothing, 1 = event, 2 = new, 3 = hot)
+#Recommended to use only up to 15 worlds
+worlds:
+  #Properties for Scania 0
+  - flag: 0
+    server_message: 欢迎来到MapleBoast 最低2x渐变经验 1x金币 1x掉落 输入 @帮助 可以查看便捷指令!
+    event_message: 欢迎来到MapleBoast\r经验:最低2x渐变\r金币:1x\r掉落:1x!
+    why_am_i_recommended: 欢迎来到MapleBoast 最低2x渐变经验 1x金币 1x掉落 输入 @帮助 可以查看便捷指令!!
+    channels: 6
+    exp_rate: 2
+    meso_rate: 1
+    drop_rate: 1
+    boss_drop_rate: 1                      #Boss掉落率超过普通掉落率，仅适用于Boss.
+    quest_rate: 2                           #Exp和Meso的乘数在完成任务时获得。仅当USE_QUEST_RATE为true时可用。堆叠与服务器Exp&Meso费率。
+    fishing_rate: 1                        #钓鱼过程中投掷meso成功可能性的乘数
+    travel_rate: 1                         #交通工具使用默认时间的1/N乘坐/离开。
+
+    #Properties for Bera 1
+  - flag: 0
+    server_message: Welcome to Bera!
+    event_message: Bera!
+    why_am_i_recommended: Welcome to Bera!
+    channels: 3
+
+    #Properties for Broa 2
+  - flag: 0
+    server_message: Welcome to Broa!
+    event_message: Broa!
+    why_am_i_recommended: Welcome to Broa!
+    channels: 3
+
+    #Properties for Windia 3
+  - flag: 0
+    server_message: Welcome to Windia!
+    event_message: Windia!
+    why_am_i_recommended: Welcome to Windia!
+    channels: 3
+
+    #Properties for Khaini 4
+  - flag: 0
+    server_message: Welcome to Khaini!
+    event_message: Khaini!
+    why_am_i_recommended: Welcome to Khaini!
+    channels: 3
+
+    #Properties for Bellocan 5
+  - flag: 0
+    server_message: Welcome to Bellocan!
+    event_message: Bellocan!
+    why_am_i_recommended: Welcome to Bellocan!
+    channels: 3
+
+    #Properties for Mardia 6
+  - flag: 0
+    server_message: Welcome to Mardia!
+    event_message: Mardia!
+    why_am_i_recommended: Welcome to Mardia!
+    channels: 3
+
+    #Properties for Kradia 7
+  - flag: 0
+    server_message: Welcome to Kradia!
+    event_message: Kradia!
+    why_am_i_recommended: Welcome to Kradia!
+    channels: 3
+
+    #Properties for Yellonde 8
+  - flag: 0
+    server_message: Welcome to Yellonde!
+    event_message: Yellonde!
+    why_am_i_recommended: Welcome to Yellonde!
+    channels: 3
+
+    #Properties for Demethos 9
+  - flag: 0
+    server_message: Welcome to Demethos!
+    event_message: Demethos!
+    why_am_i_recommended: Welcome to Demethos!
+    channels: 3
+
+    #Properties for Galicia 10
+  - flag: 0
+    server_message: Welcome to Galicia!
+    event_message: Galicia!
+    why_am_i_recommended: Welcome to Galicia!
+    channels: 3
+
+    #Properties for Kastia 11
+  - flag: 0
+    server_message: Welcome to Kastia!
+    event_message: Kastia!
+    why_am_i_recommended: Welcome to Kastia!
+    channels: 3
+
+    #Properties for Judis 12
+  - flag: 0
+    server_message: Welcome to Judis!
+    event_message: Judis!
+    why_am_i_recommended: Welcome to Judis!
+    channels: 3
+
+    #Properties for Arcenia 13
+  - flag: 0
+    server_message: Welcome to Arcenia!
+    event_message: Arcenia!
+    why_am_i_recommended: Welcome to Arcenia!
+    channels: 3
+
+    #Properties for Plana 14
+  - flag: 0
+    server_message: Welcome to Plana!
+    event_message: Plana!
+    why_am_i_recommended: Welcome to Plana!
+    channels: 3
+
+    #Properties for El Nido 15
+  - flag: 0
+    server_message: Welcome to El Nido!
+    event_message: El Nido!
+    why_am_i_recommended: Welcome to El Nido!
+    channels: 3
+
+    #Properties for Kalluna 16
+  - flag: 0
+    server_message: Welcome to Kalluna!
+    event_message: Kalluna!
+    why_am_i_recommended: Welcome to Kalluna!
+    channels: 3
+
+    #Properties for Stius 17
+  - flag: 0
+    server_message: Welcome to Stius!
+    event_message: Stius!
+    why_am_i_recommended: Welcome to Stius!
+    channels: 3
+
+    #Properties for Croa 18
+  - flag: 0
+    server_message: Welcome to Croa!
+    event_message: Croa!
+    why_am_i_recommended: Welcome to Croa!
+    channels: 3
+
+    #Properties for Zenith 19
+  - flag: 0
+    server_message: Welcome to Zenith!
+    event_message: Zenith!
+    why_am_i_recommended: Welcome to Zenith!
+    channels: 3
+
+    #Properties for Medere 20
+  - flag: 0
+    server_message: Welcome to Medere!
+    event_message: Medere!
+    why_am_i_recommended: Welcome to Medere!
+    channels: 3
+
+
+server:
+  #Database Configuration阿迪斯
+  DB_URL_FORMAT: "jdbc:mysql://%s:4589/mapleboast"
+  DB_HOST: "121.62.19.132"
+  DB_USER: "mapleboastb"
+  DB_PASS: "qwe1591591"
+  INIT_CONNECTION_POOL_TIMEOUT: 90    # Seconds
+
+  #登录配置
+  WORLDS: 1                           #服务器上的初始世界数
+  WLDLIST_SIZE: 21                    #服务器上的最大可能世界.
+  CHANNEL_SIZE: 20                    #每个世界的最大可能频道数（根据登录阶段的频道列表，为20）
+  CHANNEL_LOAD: 100                   #每个频道的最大玩家数（实际用于计算World服务器容量的限制）.
+  CHANNEL_LOCKS: 20                   #每个通道具有的结构管理锁的总数.
+
+  RESPAWN_INTERVAL: 10000             #心跳间隔.
+  PURGING_INTERVAL: 300000            #清理缓存间隔5 minutes, 300000.
+  RANKING_INTERVAL: 3600000           #排行榜间隔60 minutes, 3600000.
+  COUPON_INTERVAL: 3600000            #耦合间隔 60 minutes, 3600000.
+  UPDATE_INTERVAL: 777                #指示更新“集中式服务器时间”的频率.
+
+  ENABLE_PIC: false               #选择true/false以启用或禁用Pic。删除字符需要PIC可用
+  ENABLE_PIN: false               #选择true/false以启用或禁用Pin
+
+  BYPASS_PIC_EXPIRATION: 20           #启用PIC旁路，该客户端计算机将为该帐户保持活动状态N分钟。将0设置为禁用。
+  BYPASS_PIN_EXPIRATION: 15           #启用PIN绕过，该客户端计算机将为该帐户保持活动状态N分钟。将0设置为禁用
+
+  AUTOMATIC_REGISTER: false        #当玩家使用不存在的用户名登录时自动注册
+  BCRYPT_MIGRATION: true          #执行从旧SHA-1和SHA-512密码到bcrypt的迁移.
+  COLLECTIVE_CHARSLOT: false      #可用的角色槽是全局可控制的，而不是每个世界服务器可控制的
+  DETERRED_MULTICLIENT: false     #允许检测登录系统上的多客户端和可疑远程IP.
+  #除了阻止在同一台机器上使用多个客户端会话登录外，这还阻止了试图使用多个不同远程地址登录帐户的玩家的可疑登录尝试。
+
+  #多客户端协调器配置
+  MAX_ALLOWED_ACCOUNT_HWID: 10        #允许一个帐户最多N个并发HWID。HWID与帐户的链接时间越长，登录次数越多
+  MAX_ACCOUNT_LOGIN_ATTEMPT: 15       #N尝试登录某个帐户后，该帐户的登录将在短时间内被禁用.
+  LOGIN_ATTEMPT_DURATION: 120         #登录尝试在系统上保持注册状态的时间（以秒为单位）.
+
+  #IP配置
+  #  HOST: 103.15.217.37                  #WAN IPv4 address
+  #  LANHOST: 103.15.217.37              #LAN IPv4 address
+  #  LOCALHOST: 103.15.217.37             #Loopback IPv4 address
+  HOST: 127.0.0.1                 #WAN IPv4 address
+  LANHOST: 127.0.0.1              #LAN IPv4 address
+  LOCALHOST: 127.0.0.1             #Loopback IPv4 address
+  GMSERVER: false
+
+  #其他配置
+  SHUTDOWNHOOK: true
+
+  #服务器标志
+  USE_CUSTOM_KEYSET: false             #允许在创建字符时自动设置HeavenMS的自定义密钥绑定。
+  USE_DEBUG: false                    #将在客户端上启用一些文本打印，用于调试目的.
+  USE_DEBUG_SHOW_INFO_EQPEXP: false   #在cmd上打印所有装备exp增益信息.
+  USE_DEBUG_SHOW_RCVD_PACKET: true   #在cmd上打印所有接收到的数据包ID.
+  USE_DEBUG_SHOW_RCVD_MVLIFE: false   #在cmd上打印所有接收到的移动生活内容.
+  USE_DEBUG_SHOW_PACKET: false
+  USE_SUPPLY_RATE_COUPONS: true       #允许通过现金商店销售价格优惠券.
+  USE_IP_VALIDATION: false             #在登录时启用IP检查
+  USE_CHARACTER_ACCOUNT_CHECK: false  #登录时为每个帐户启用一个字符的检查。这可能会占用大量资源
+
+  USE_MAXRANGE: true                  #将从地图上的所有事件发送和接收数据包，而不是仅查看范围内的事件。
+  USE_MAXRANGE_ECHO_OF_HERO: true
+  USE_MTS: false
+  USE_CPQ: true                       #呈现CPQ是否可用.
+  USE_AUTOHIDE_GM: true              #启用后，GM将在加入时自动隐藏。感谢Steven Deblois（steven1152）.
+  USE_BUYBACK_SYSTEM: false            #启用HeavenMS内置回购系统，供死亡玩家在单击MTS按钮时使用。
+  USE_FIXED_RATIO_HPMP_UPDATE: false   #启用基于当前池与最大池比率的HeavenMS内置HPMP更新。
+  USE_FAMILY_SYSTEM: true
+  USE_DUEY: true
+  USE_RANDOMIZE_HPMP_GAIN: true       #启用对MaxHP/MaxMP增益的随机化，并在升级时对MaxMP增益进行INT核算
+  USE_STORAGE_ITEM_SORT: true         #启用存储“排列项目”功能.
+  USE_ITEM_SORT: true                 #启用库存“项目排序/合并”功能.
+  USE_ITEM_SORT_BY_NAME: false        #基于名称而非id的项目排序.
+  USE_PARTY_FOR_STARTERS: false        #10级或以下的玩家可以创建/邀请指定级别范围内的其他玩家.
+  USE_AUTOASSIGN_STARTERS_AP: true   #10级或以下的初学者会自动分配他们的AP（他们不能选择升级统计）。仅当localhost不支持为10级或以下的初学者分配AP时设置true。
+  USE_AUTOASSIGN_SECONDARY_CAP: true  #在达到玩家等级上限（在自动分配处理程序中定义）后，防止AP自动分配在辅助统计数据上花费。
+  USE_STARTING_AP_4: false             #使用早期GMS 4/4/4的起始数据。为了克服AP短缺，这在第1/2个工作岗位上提供了4AP/5AP.
+  USE_AUTOBAN: true                  #命令服务器自动检测违规行为.
+  USE_AUTOBAN_LOG: true               #记录与自动禁止相关的消息。即使禁用了USE_AUTOBAN，仍会记录日志。
+  USE_AUTOSAVE: true                  #启用服务器自动保存功能（每1小时将字符保存到数据库）。
+  USE_SERVER_AUTOASSIGNER: false       #HeavenMS内置自动分配器，使用基于相应分配AP的算法对设备进行所需的二次统计。
+  USE_REFRESH_RANK_MOVE: true
+  USE_ENFORCE_ADMIN_ACCOUNT: false    #强制客户端（localhost）将具有GM字符的帐户视为“GM帐户”。通用汽车账户的一些福利是可以飞行，但不能交易。
+  USE_ENFORCE_NOVICE_EXPRATE: false    #10级或以下初学者的硬装体验费率为1x。非常适合在新手区漫游，而不必太在意丢失一些统计数据
+  USE_ENFORCE_HPMP_SWAP: false        #强制玩家仅在HP/MP属性内重复使用位于HP/MP池中的属性（通过AP重置）。
+  USE_ENFORCE_MOB_LEVEL_RANGE: true   #被杀死的暴民以下N级的玩家将不会从击败暴民中获得任何经验。
+  USE_ENFORCE_JOB_LEVEL_RANGE: false  #将玩家级别限制在提升当前工作所需的最低级别
+  USE_ENFORCE_JOB_SP_RANGE: false     #根据玩家当前工作可获得的总SP等级上限。更改作业后，将检索到丢失的SP。
+  USE_ENFORCE_ITEM_SUGGESTION: false  #强制Minerva和Cash Shop的猫头鹰始终显示已定义的物品阵列，而不是玩家指定的物品阵列
+  USE_ENFORCE_UNMERCHABLE_CASH: true  #强制玩家不要通过商家出售现金物品，现金滴会消失.
+  USE_ENFORCE_UNMERCHABLE_PET: true   #强制玩家不要通过商家出售宠物，掉落的宠物会消失。（因为未命名的宠物会得到脏名字和其他可能与数据库相关的问题）
+  USE_ENFORCE_MERCHANT_SAVE: true     #在商店的每一次物品移动时，强制商家所有者自动保存DB。
+  USE_ENFORCE_MDOOR_POSITION: false   #迫使神秘之门在产卵点附近繁殖
+  USE_SPAWN_CLEAN_MDOOR: false         #使神秘之门在不部署动画的情况下繁殖。这清除了在部署后几秒钟尝试取消门时可能发生的断开连接问题。
+  USE_SPAWN_LOOT_ON_ANIMATION: false  #使战利品在暴徒被杀后一段时间出现（跟随暴徒死亡动画，而不是立即出现）。
+  USE_SPAWN_RELEVANT_LOOT: true       #强制只生成可由玩家或其任何成员收集的厕所
+  USE_ERASE_PERMIT_ON_OPENSHOP: true  #当玩家部署他/她的玩家商店时，强制消耗“商店许可证”物品
+  USE_ERASE_UNTRADEABLE_DROP: true    #强制标记为无法处理的项目在掉落时消失。
+  USE_ERASE_PET_ON_EXPIRATION: false  #强制宠物在到期时从库存中移除，而不是将其转换为玩偶.
+  USE_BUFF_MOST_SIGNIFICANT: true     #当应用buff时，玩家将坚持使用列表中最高的属性提升，而不是覆盖属性.
+  USE_BUFF_EVERLASTING: false         #玩家身上的每一个buff都有很高的到期时间，因此会被视为永久性的。建议感谢Vcoc。
+  USE_MULTIPLE_SAME_EQUIP_DROP: true  #允许同一设备的暴徒进行多次空投，根据空投数据提供的数量进行可能的空投数量.
+  USE_BANISHABLE_TOWN_SCROLL: false    #使城镇卷轴可以像“玩家放逐”一样发挥作用，从而提供反巴尼斯卷轴效果。
+  USE_ENABLE_FULL_RESPAWN: true       #在重生任务中，总是在失踪的暴徒可用时重生。繁殖数量并不取决于目前有多少玩家.
+  USE_ENABLE_CHAT_LOG: false          #编写游戏内聊天记录
+  USE_REBIRTH_SYSTEM: false           #启用/禁用再生系统的标志
+  USE_MAP_OWNERSHIP_SYSTEM: false      #启用/禁用地图所有权系统的标志
+  USE_FISHING_SYSTEM: false            #启用/禁用自定义钓鱼系统的标志
+  USE_NPCS_SCRIPTABLE: true           #用于启用/禁用服务器端预定义脚本NPC的标志。
+
+  #Events/PQs配置
+  USE_ENABLE_NO_NUM_EXPEDITIONS: false  #
+  USE_OLD_GMS_STYLED_PQ_NPCS: true     #启用具有与旧GMS风格类似行为的PQ NPC，跳过有关PQ的信息并立即尝试在.
+  USE_ENABLE_SOLO_EXPEDITIONS: true    #允许任何数量的玩家开始探险。这也将绕过所有的Zakum预任务
+  USE_ENABLE_DAILY_EXPEDITIONS: true  #启用探险中的每日进入限制.
+  USE_ENABLE_RECALL_EVENT: true        #使断开连接的玩家能够重新访问他们在注销前所在的最后一个事件实例。只有当事件尚未清除或处置时，Recall才起作用。建议感谢Alisson（Gouken）.
+
+  #公告配置
+  USE_ANNOUNCE_SHOPITEMSOLD: true    #当玩家商店或雇佣商家的商品售出时，自动向店主发送消息。
+  USE_ANNOUNCE_CHANGEJOB: false       #更改作业时自动向acquantances发送消息
+  USE_ANNOUNCE_NX_COUPON_LOOT: false    #当玩家抢夺NX卡时启用或禁用浮动文本
+
+  #现金商店配置
+  USE_JOINT_CASHSHOP_INVENTORY: false  #使探险家、天鹅座和传奇人物能够使用相同的现金商店库存。不过，独家现金店库存中的物品不会出现在共享库存中.
+  USE_CLEAR_OUTDATED_COUPONS: true    #允许从数据库中删除旧的代码优惠券注册表，释放长期无关的数据。
+  ALLOW_CASHSHOP_NAME_CHANGE: true    #允许玩家在现金商店购买改名.
+  ALLOW_CASHSHOP_WORLD_TRANSFER: true  #允许玩家在现金商店购买世界转账。
+
+  #Maker配置
+  USE_MAKER_PERMISSIVE_ATKUP: false    #允许玩家在非武器物品上使用基于攻击的强化宝石
+  USE_MAKER_FEE_HEURISTICS: true      #将兴奋剂和试剂的编译值应用到Maker费用计算中（最大误差围绕50k介观）。将false设置为使用基本常数值（结果永远不会高于客户端请求的值）。
+
+  #自定义配置
+  USE_ENABLE_CUSTOM_NPC_SCRIPT: false  #允许使用自定义HeavenMS NPC脚本（Agent E、Coco等）。不会禁用阿布杜拉（它实际上对游戏很有用）或任务。
+  USE_STARTER_MERGE: false            #允许任何玩家使用装备合并自定义机制（与高级制造者3级必备条件相反）。
+
+  #Commands Configuration
+  BLOCK_GENERATE_CASH_ITEM: false     #禁止使用item/drop命令创建现金项目。
+  USE_WHOLE_SERVER_RANKING: false     #启用由服务器上为“ranks”命令注册的每个字符组成的排名池，而不是用世界分隔
+
+  EQUIP_EXP_RATE: 1.0                  #设备exp增益的速率线性增长。默认值为1.0（从1级到2级，杀死大约100到200名同级别范围的暴民以通过装备）。
+  PQ_BONUS_EXP_RATE: 0.5               #PQ exp奖励的费率.
+
+  EXP_SPLIT_LEVEL_INTERVAL: 5            #非贡献玩家必须在暴民之间的N级范围内才能获得经验。
+  EXP_SPLIT_LEECH_INTERVAL: 5            #非贡献玩家必须在任何贡献方成员之间的N级范围内才能获得经验。
+  EXP_SPLIT_MVP_MOD: 0.2
+  EXP_SPLIT_COMMON_MOD: 0.8
+  PARTY_BONUS_EXP_RATE: 1.0            #派对经验奖励的费率
+
+  #Miscellaneous Configuration
+  TIMEZONE: GMT
+  CHARSET: GBK                          # 首先加载，因此适用于此配置的其余部分。如果无效或未设置，则默认为US-ASCII。
+  USE_DISPLAY_NUMBERS_WITH_COMMA: true          #在显示的字符串上强制使用逗号（当use_UNITPRICE_WITH_comma处于活动状态并且您仍然希望显示逗号分隔的值时使用此选项）。
+  USE_UNITPRICE_WITH_COMMA: true                #使用Item.wz XML上的unitPrices布局相应地设置此值，无论是使用逗号还是点来表示分数。
+  MAX_MONITORED_BUFFSTATS: 5                 #Limits accounting for "dormant" buff effects, that should take place when stronger stat buffs expires.
+  MAX_AP: 32767                               #Max AP allotted on the auto-assigner.
+  MAX_EVENT_LEVELS: 8                         #Event has different levels of rewarding system.
+  BLOCK_NPC_RACE_CONDT: 500   # (0.5 * 1000) Time the player client must wait before reopening a conversation with an NPC.
+  TOT_MOB_QUEST_REQUIREMENT: 399               #Overwrites old 999-mobs requirement for the ToT questline with new requirement value, set 0 for default.
+  MOB_REACTOR_REFRESH_TIME: 0         # (30 * 1000) Overwrites refresh time for those reactors oriented to inflict damage to bosses (Ice Queen, Riche), set 0 for default.
+  PARTY_SEARCH_REENTRY_LIMIT: 10              #Max amount of times a party leader is allowed to persist on the Party Search before entry expiration (thus needing to manually restart the Party Search to be able to search for members).
+  NAME_CHANGE_COOLDOWN: 2592000000      # (30*24*60*60*1000) Cooldown for name changes, default (GMS) is 30 days.
+  WORLD_TRANSFER_COOLDOWN: 2592000000  # (30*24*60*60*1000) Cooldown for world tranfers, default is same as name change (30 days).
+  INSTANT_NAME_CHANGE: false              #Whether or not to wait for server restart to apply name changes. Does on reconnect otherwise (requires queries on every login).
+  REBIRTH_NPC_ID: 9010021                 #ID of the NPC that should be replaced with the rebirth mechanic, if enabled.
+
+  #Dangling Items/Locks Configuration
+  ITEM_EXPIRE_TIME: 180000    # (3 * 60 * 1000) Time before items start disappearing. Recommended to be set up to 3 minutes.
+  KITE_EXPIRE_TIME: 3600000   # (60 * 60 * 1000) Time before kites (cash item) disappears.
+  ITEM_MONITOR_TIME: 300000    # (5 * 60 * 1000) Interval between item monitoring tasks on maps, which checks for dangling (null) item objects on the map item history.
+  LOCK_MONITOR_TIME: 30000        # (30 * 1000) Waiting time for a lock to be released. If it reaches timeout, a critical server deadlock has made present.
+
+  #Map Monitor Configuration
+  ITEM_EXPIRE_CHECK: 10000        # (10 * 10000) Interval between item expiring tasks on maps, which checks and makes disappear expired items.
+  ITEM_LIMIT_ON_MAP: 200              #Max number of items allowed on a map.
+  MAP_VISITED_SIZE: 5                 #Max length for last mapids visited by a player. This is used to recover and update drops on these maps accordingly with player actions.
+  MAP_DAMAGE_OVERTIME_INTERVAL: 2500  #Interval in milliseconds between map environment damage (e.g. El Nath and Aqua Road surrondings).
+  MAP_DAMAGE_OVERTIME_COUNT: 2
+
+  #Channel Mob Disease Monitor Configuration
+  MOB_STATUS_MONITOR_PROC: 200        #Frequency in milliseconds between each proc on the mob disease monitor schedule.
+  MOB_STATUS_MONITOR_LIFE: 84         #Idle proc count the mob disease monitor is allowed to be there before closing it due to inactivity.
+  MOB_STATUS_AGGRO_PERSISTENCE: 2     #Idle proc count on aggro update for a mob to keep following the current controller, given him/her is the leading damage dealer.
+  MOB_STATUS_AGGRO_INTERVAL: 5000     #Interval in milliseconds between aggro logistics update.
+  USE_AUTOAGGRO_NEARBY: true         #Mobs start following the player when approached.
+
+  #Some Gameplay Enhancing Configurations
+  #Scroll Configuration
+  USE_PERFECT_GM_SCROLL: true     #Scrolls from GMs never uses up slots nor fails.
+  USE_PERFECT_SCROLLING: false     #Scrolls doesn't use slots upon failure.
+  USE_ENHANCED_CHSCROLL: false     #Equips even more powerful with chaos upgrade.
+  USE_ENHANCED_CRAFTING: false     #Apply chaos scroll on every equip crafted.
+  USE_ENHANCED_CLNSLATE: false     #Clean slates can be applied to recover successfully used slots as well.
+  SCROLL_CHANCE_ROLLS: 1         #Number of rolls for success on a scroll, set 1 for default.
+  CHSCROLL_STAT_RATE: 1               #Number of rolls of stat upgrade on a successfully applied chaos scroll, set 1 for default.
+  CHSCROLL_STAT_RANGE: 6              #Stat upgrade range (-N, N) on chaos scrolls.
+
+  #Beginner Skills Configuration
+  USE_ULTRA_NIMBLE_FEET: false     #Massive speed & jump upgrade.
+  USE_ULTRA_RECOVERY: false        #Massive recovery amounts overtime.
+  USE_ULTRA_THREE_SNAILS: false    #Massive damage on shell toss.
+
+  #Other Skills Configuration
+  USE_FULL_ARAN_SKILLSET: false   #Enables starter availability to all Aran job skills. Suggestion thanks to Masterrulax.
+  USE_FAST_REUSE_HERO_WILL: false  #Greatly reduce cooldown on Hero's Will.
+  USE_ANTI_IMMUNITY_CRASH: false   #Crash skills additionally removes the mob's invincibility buffs. Suggestion thanks to Celestial.
+  USE_UNDISPEL_HOLY_SHIELD: false  #Holy shield buff also prevents players from suffering dispel from mobs.
+  USE_FULL_HOLY_SYMBOL: false      #Holy symbol doesn't require EXP sharers to work in full.
+
+  #Character Configuration
+  USE_ADD_SLOTS_BY_LEVEL: false    #Slots are added each 20 levels.
+  USE_ADD_RATES_BY_LEVEL: false    #Rates are added each 20 levels.
+  USE_STACK_COUPON_RATES: false   #Multiple coupons effects builds up together.
+  USE_PERFECT_PITCH: false         #For lvl 30 or above, each lvlup grants player 1 perfect pitch.
+
+  #Quest Configuration
+  USE_QUEST_RATE: false           #Exp/Meso gained by quests uses fixed server exp/meso rate times quest rate as multiplier, instead of player rates.
+
+  #Quest Points Configuration
+  QUEST_POINT_REPEATABLE_INTERVAL: 25  #Minimum interval between repeatable quest completions for quest points to be awarded.
+  QUEST_POINT_REQUIREMENT: 0          #Exchange factor between N quest points to +1 fame, set 0 to disable the entire quest point mechanism.
+  QUEST_POINT_PER_QUEST_COMPLETE: 0    #Each completed quest awards N quest points, set 0 to disable.
+  QUEST_POINT_PER_EVENT_CLEAR: 0       #Each completed event instance awards N quest points, set 0 to disable.
+
+  #Guild Configuration
+  CREATE_GUILD_MIN_PARTNERS: 2         #Minimum number of members on Guild Headquarters to establish a new guild.
+  CREATE_GUILD_COST: 1500000
+  CHANGE_EMBLEM_COST: 5000000
+  EXPAND_GUILD_BASE_COST: 500000
+  EXPAND_GUILD_TIER_COST: 1000000
+  EXPAND_GUILD_MAX_COST: 5000000
+
+  #Family Configuration
+  FAMILY_REP_PER_KILL: 4               #Amount of rep gained per monster kill.
+  FAMILY_REP_PER_BOSS_KILL: 20         #Amount of rep gained per boss kill.
+  FAMILY_REP_PER_LEVELUP: 200          #Amount of rep gained upon leveling up.
+  FAMILY_MAX_GENERATIONS: 1000         #Maximum depth of family tree. (Distance from leader to farthest junior)
+
+  #Equipment Configuration
+  USE_EQUIPMNT_LVLUP_SLOTS: false  #Equips can upgrade slots at level up.
+  USE_EQUIPMNT_LVLUP_POWER: false  #Enable more powerful stat upgrades at equip level up.
+  USE_EQUIPMNT_LVLUP_CASH: false   #Enable equip leveling up on cash equipments as well.
+  USE_SPIKES_AVOID_BANISH: false   #Shoes equipped with spikes prevents mobs from banishing wearer.
+  MAX_EQUIPMNT_LVLUP_STAT_UP: 10000   #Max stat upgrade an equipment can have on a levelup.
+  MAX_EQUIPMNT_STAT: 32767            #Max stat on an equipment by leveling up.
+  USE_EQUIPMNT_LVLUP: 1               #All equips lvlup at max level of N, set 1 to disable.
+
+  #Map-Chair Configuration
+  USE_CHAIR_EXTRAHEAL: false       #Enable map chairs to further recover player's HP and MP (player must have the Chair Mastery skill).
+  CHAIR_EXTRA_HEAL_MULTIPLIER: 10    #Due to only being able to be send up-to-255 heal values, values being actually updated is the one displayed times this.
+  CHAIR_EXTRA_HEAL_MAX_DELAY: 21      #Players are expected to recover fully after using this skill for N seconds.
+
+  #Player NPC Configuration
+  PLAYERNPC_INITIAL_X: 262            #Map frame width for putting PlayerNPCs.
+  PLAYERNPC_INITIAL_Y: 262            #Map frame height for putting PlayerNPCs.
+  PLAYERNPC_AREA_X: 320               #Initial width gap between PlayerNPCs.
+  PLAYERNPC_AREA_Y: 160               #Initial height gap between PlayerNPCs.
+  PLAYERNPC_AREA_STEPS: 4             #Max number of times gap is shortened to comport PlayerNPCs.
+  PLAYERNPC_ORGANIZE_AREA: true   #Automatically rearranges PlayerNPCs on the map if there is no space set the new NPC. Current distance gap between NPCs is decreased to solve this issue.
+  PLAYERNPC_AUTODEPLOY: true      #Makes PlayerNPC automatically deployed on the Hall of Fame at the instant one reaches max level. If false, eligible players must talk to 1st job instructor to deploy a NPC.
+
+  #Pet Auto-Pot Configuration
+  USE_COMPULSORY_AUTOPOT: true    #Pets will consume as many potions as needed to fulfill the AUTOHP/MP ratio threshold.
+  USE_EQUIPS_ON_AUTOPOT: true     #Player MaxHP and MaxMP check values on autopot handler will be updated by the HP/MP bonuses on equipped items.
+  PET_AUTOHP_RATIO: 0.99          #Will automatically consume potions until given ratio of the MaxHP/MaxMP is reached.
+  PET_AUTOMP_RATIO: 0.99
+
+  #Pet & Mount Configuration
+  PET_EXHAUST_COUNT: 3               #Number of proc counts (1 per minute) on the exhaust schedule for fullness.
+  MOUNT_EXHAUST_COUNT: 1             #Number of proc counts (1 per minute) on the exhaust schedule for tiredness.
+
+  #Pet Hunger Configuration
+  PETS_NEVER_HUNGRY: false        #If true, pets and mounts will never grow hungry.
+  GM_PETS_NEVER_HUNGRY: true      #If true, pets and mounts owned by GMs will never grow hungry.
+
+  #Event Configuration
+  EVENT_MAX_GUILD_QUEUE: 10           #Max number of guilds in queue for GPQ.
+  EVENT_LOBBY_DELAY: 10              #Cooldown duration in seconds before reopening an event lobby.
+
+  #Dojo Configuration
+  USE_FAST_DOJO_UPGRADE: false     #Reduced Dojo training points amount required for a belt upgrade.
+  USE_DEADLY_DOJO: true          #Should bosses really use 1HP,1MP attacks in dojo?
+  DOJO_ENERGY_ATK: 100                #Dojo energy gain when deal attack
+  DOJO_ENERGY_DMG: 20                #Dojo energy gain when recv attack
+
+  #Wedding Configuration
+  WEDDING_RESERVATION_DELAY: 3        #Minimum idle slots before processing a wedding reservation.
+  WEDDING_RESERVATION_TIMEOUT: 10     #Limit time in minutes for the couple to show up before cancelling the wedding reservation.
+  WEDDING_RESERVATION_INTERVAL: 60    #Time between wedding starts in minutes.
+  WEDDING_BLESS_EXP: 30000            #Exp gained per bless count.
+  WEDDING_GIFT_LIMIT: 1               #Max number of gifts per person to same wishlist on marriage instances.
+  WEDDING_BLESSER_SHOWFX: true    #Pops bubble sprite effect on players blessing the couple. Setting this false shows the blessing effect on the couple instead.
+
+  #Buyback Configuration
+  USE_BUYBACK_WITH_MESOS: true    #Enables usage of either mesos or NX for the buyback fee.
+  BUYBACK_FEE: 77.70               #Sets the base amount needed to buyback (level 30 or under will use the base value).
+  BUYBACK_LEVEL_STACK_FEE: 85.47   #Sets the level-stacking portion of the amount needed to buyback (fee will sum up linearly until level 120, when it reaches the peak).
+  BUYBACK_MESO_MULTIPLIER: 1000       #Sets a multiplier for the fee when using meso as the charge unit.
+  BUYBACK_RETURN_MINUTES: 1           #Sets the maximum amount of time the player can wait before decide to buyback.
+  BUYBACK_COOLDOWN_MINUTES: 7         #Sets the time the player must wait before using buyback again.
+
+  # Login timeout by shavit
+  TIMEOUT_DURATION: 3600000               # Kicks clients who don't send any packet to the game server in due time (in millisseconds).
+
+  #Event End Timestamp
+  EVENT_END_TIMESTAMP: 1428897600000
+
+  #Any NPC ids that should search for a js override script (useful if they already have wz entries since otherwise they're ignored).
+  NPCS_SCRIPTABLE:
+    #9200000: Talk to Cody # Cody
+    9001105: Rescue Gaga!  # Grandpa moon bunny
+
+  #Level Configuration
+  CYGNUS_MAXLEVEL: 200
+  MAXLEVEL: 200
+
+  #Item slotMax Configuration
+  ITEM_SLOTMAX: 1000
